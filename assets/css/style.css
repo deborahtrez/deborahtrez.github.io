@@ -1173,3 +1173,51 @@ section .container {
   width: 100%;
   height: auto;
 }
+
+.btn .btn-primary .btn-lg{
+  background-color: #15bb62 !important;
+  color: #15bb62 !important;
+}
+
+/* tables */
+table, th, td {
+  border: 1px solid #4f5f57;
+  border-collapse: collapse;
+}
+
+table {
+  width:100%
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.mixxx{
+  line-height: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #18d26e;
+  margin-bottom: 10px;
+}
+
+.space {
+  margin-top: 5rem;
+}
+
+ /* iframe {
+  width: 100px;
+  height: 50px;
+
+  background-color: #777;
+} */
+
+iframe {
+  display: flex;
+  border-style:none;
+  margin: 0 auto;
+  height: 50rem;
+}
