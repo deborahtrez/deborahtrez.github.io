@@ -54,7 +54,7 @@
   })
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with offset on links with a class name .scrollto
    */
   on('click', '#navbar .nav-link', function(e) {
     let section = select(this.hash)
@@ -152,7 +152,7 @@
        backDelay: 2000
      });
    }
-   
+
   /**
    * Skills animation
    */
